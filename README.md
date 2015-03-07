@@ -7,7 +7,8 @@ Plugin for ember-cli that makes cycle2 slideshow component available.
 To install simply run:
 
 ```
-npm install --save-dev ember-cli-cycle2
+npm install git+ssh://git@github.com:webnuts/ember-cli-cycle2.git --save-dev
+ember g ember-cli-cycle2
 ```
 
 ## Usage
