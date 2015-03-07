@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-cycle2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin for ember-cli that makes cycle2 slideshow component available.",
   "directories": {
     "doc": "doc",
