@@ -16,7 +16,7 @@ ember g ember-cli-cycle2
 Once installed, you can use the plugin right away inside your template files:
 
 ```
-{{#cycle-slideshow class="slideshow type-frontpage" fx="carousel" timeout="5000" slides=".slide" carouselVisible="1" pager=".cycle-pager" carouselFluid=true swipe=true}}
+{{#cycle-slideshow class="slideshow type-frontpage" fx="carousel" timeout=5000 slides=".slide" carouselVisible="1" pager=".cycle-pager" carouselFluid=true swipe=true}}
   {{#each model.slideshowItems as |slideshowItem|}}
     <div class="slide">
       <img src="{{slideshowItem.imageUrl}}">
