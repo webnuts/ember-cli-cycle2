@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   didInsertElement: function() {
     var self = this;
-    var supportedCycleArguments = ['timeout', 'fx', 'prev', 'next', 'slides', 'carouselVisible', 'carouselFluid', 'pager', 'log', 'swipe', 'pauseOnHover', 'autoHeight', 'paused'];
+    var supportedCycleArguments = ['timeout', 'fx', 'prev', 'next', 'slides', 'carouselVisible', 'carouselFluid', 'pager', 'log', 'swipe', 'pauseOnHover', 'autoHeight', 'paused', 'caption', 'captionTemplate'];
     var overwrittenDefaults = {
       log: false
     };
